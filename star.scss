@@ -1,0 +1,22 @@
+.star {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	position: relative;
+
+	&:before {
+		content: '';
+		background-color: blue;
+		width: 30px;
+		height: 100px;
+		position: relative;
+		text-transform: uper-case;
+	}
+
+	&:after {
+		content: '';
+		background-color: green;
+		width: 50px;
+		height: 100px;
+	}
+}
