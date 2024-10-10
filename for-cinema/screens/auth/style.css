@@ -1,0 +1,29 @@
+body {
+	height: 100%;
+}
+
+.auth {
+	max-width: 320px;
+	max-height: 280px;
+	margin: 0 auto;
+	backgroud-color: red;
+
+	justify-content: center;
+}
+.auth-form {
+	width: 100%;
+	height: 100%;
+	backgroud-color: red;
+	color: #fff;
+}
+.title {
+	font-size: 18px;
+}
+.fields {
+	mx-width: 180px;
+}
+
+.fields input {
+	border-radius: 10px;
+	width: 100%;
+}
